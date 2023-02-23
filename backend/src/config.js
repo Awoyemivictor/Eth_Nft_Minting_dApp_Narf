@@ -37,7 +37,7 @@ const format = {
 };
 
 const extraMetadata = {
-  external_url: "https://codecats.xyz", // Replace with your website or remove this line if you do not have one.
+  external_url: "https://projectmom.io", // Replace with your website or remove this line if you do not have one.
 };
 
 // NFTPort Info
@@ -58,23 +58,23 @@ const MINT_PRICE = 0.01; // Minting price per NFT. Goerli = ETH, Ethereum = ETH,
 const TOKENS_PER_MINT = 10; // maximum number of NFTs a user can mint in a single transaction. CANNOT BE UPDATED!
 
 // REQUIRED CONTRACT DETAILS THAT CAN BE UPDATED LATER.
-const PUBLIC_MINT_START_DATE = "2023-02-20T11:30:48+00:00"; // This is required. Eg: 2022-02-08T11:30:48+00:00
+const PUBLIC_MINT_START_DATE = "2023-02-21T11:30:48+00:00"; // This is required. Eg: 2022-02-08T11:30:48+00:00
 
 // OPTIONAL CONTRACT DETAILS THAT CAN BE UPDATED LATER.
 const PRESALE_MINT_START_DATE = null; // Optional. Eg: 2022-02-08T11:30:48+00:00
 const ROYALTY_SHARE = 1000; // Percentage of the token price that goes to the royalty address. 100 bps = 1%
-const ROYALTY_ADDRESS = "0xd8B808A887326F45B2D0cd999709Aa6264CeF919"; // Address that will receive the royalty
+const ROYALTY_ADDRESS = "0x07b0F87C70494bc8d1e724105af7c87fF0f0b2ce"; // Address that will receive the royalty
 const BASE_URI = null; // only update if you want to manually set the base uri
 const PREREVEAL_TOKEN_URI = null; // only update if you want to manually set the prereveal token uri
 const PRESALE_WHITELISTED_ADDRESSES = []; // only update if you want to manually set the whitelisted addresses
 
 // ** OPTIONAL **
-let CONTRACT_ADDRESS = "0x07b0F87C70494bc8d1e724105af7c87fF0f0b2ce"; // If you want to manually include it
+let CONTRACT_ADDRESS = "0xA58a5ddAe4dab67b2247528d4DabDbd23c4dAEB4"; // If you want to manually include it
 
 // Generic Metadata is optional if you want to reveal your NFTs
 const GENERIC = true; // Set to true if you want to upload generic metas and reveal the real NFTs in the future
 const GENERIC_TITLE = CONTRACT_NAME; // Replace with what you want the generic titles to say if you want it to be different from the contract name.
-const GENERIC_DESCRIPTION = "Mothers of Matriarchy (MoM)"; // Replace with what you want the generic descriptions to say.
+const GENERIC_DESCRIPTION = "Which MoM will you get?"; // Replace with what you want the generic descriptions to say.
 const GENERIC_IMAGE = "https://gateway.pinata.cloud/ipfs/QmXtXnchqLLT56RkqCFL9J8ZarSP7q2tMRbE2RTuuYhYdR?_gl=1*1xa1w60*_ga*MTQ0NDc5NDEwMC4xNjc0MzE2MTY0*_ga_5RMPXG14TE*MTY3NzA4MDM0MS41LjAuMTY3NzA4MDM0OC41My4wLjA."; // Replace with your generic image that will display for all NFTs pre-reveal.
 
 // Automatically set contract address if deployed using the deployContract.js script
@@ -92,12 +92,12 @@ try {
 // END NFTPort Info
 
 const solanaMetadata = {
-  symbol: "YC",
+  symbol: "MoM",
   seller_fee_basis_points: 1000, // Define how much % you want from secondary market sales 1000 = 10%
-  external_url: "https://www.youtube.com/c/hashlipsnft",
+  external_url: "https://www.projectmom.io",
   creators: [
     {
-      address: "7fXNuer5sbZtaTEPhtJ5g5gNtuyRoKkvxdjEjEnPN4mC",
+      address: "0x07b0F87C70494bc8d1e724105af7c87fF0f0b2ce",
       share: 100,
     },
   ],
