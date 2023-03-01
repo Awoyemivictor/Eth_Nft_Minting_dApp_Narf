@@ -216,6 +216,9 @@ body::-webkit-scrollbar {
 
 .drops {
   width: 500px;
+  float: center;
+  width: 30%;
+  padding: 20 20px;
 }
 
 .drops img {
@@ -667,6 +670,11 @@ body::-webkit-scrollbar {
   .accordion .accordion-body p {
     font-size: 1em;
   }
+
+  /* .drops {
+    float: right;
+    padding: 1000%;
+  } */
 
   .drops h4 {
     font-size: 1.1em;
