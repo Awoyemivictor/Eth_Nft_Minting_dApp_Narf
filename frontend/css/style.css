@@ -12,9 +12,9 @@ body {
   overflow-x: hidden;
 
   background-color: #F8F9F1;
-  /* display: flex;
-  flex-flow: column; 
-  height: 100vh;*/
+  /*display: flex;
+  flex-flow: column;*/
+  height: 100vh;
   color: #2C1132;
 
   position: relative;
@@ -451,6 +451,10 @@ body::-webkit-scrollbar {
   bottom: 0;
   right: 0;
 }
+.faq-container{
+  width: 100%;
+  position:relative;
+}
 
 .faq-hero {
   width: 100%;
@@ -741,6 +745,7 @@ body::-webkit-scrollbar {
 
   .faq-mom-img {
     width: 400px;
+
   }
 
   .team .team-text {
