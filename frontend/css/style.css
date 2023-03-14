@@ -75,8 +75,8 @@ body {
   padding: 1rem 2rem;
   background: #DD5142;
   color: #fff;
-  font-family: Georgia, 'Times New Roman', Times, serif;
-  font-style: italic;
+  font-family: 'Nunito Sans', sans-serif;
+  /* font-style: italic; */
   font-weight: bold;
   font-size: 1rem;
   text-align: center;
