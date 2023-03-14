@@ -16,6 +16,12 @@ body {
   flex-flow: column;
   height: 100vh;
   color: #2C1132;
+
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  width: 100%;
+  
 }
 
 .container {
