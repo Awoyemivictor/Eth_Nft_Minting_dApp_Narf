@@ -871,6 +871,8 @@ body::-webkit-scrollbar {
 
   .mom-hero-section .logo {
     width: 100%;
+    top: 100px;
+    position: relative;
   }
 
   .faq-mom-img {
