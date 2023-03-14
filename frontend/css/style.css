@@ -12,8 +12,8 @@ body {
   overflow-x: hidden;
 
   background-color: #F8F9F1;
-  display: flex;
-  flex-flow: column;
+  /* display: flex;
+  flex-flow: column; */
   height: 100vh;
   color: #2C1132;
 
@@ -574,12 +574,26 @@ body::-webkit-scrollbar {
 }
 
 #mint-hero .wallet {
-  border-radius: 30px;
+  border-radius: 200px;
+  align-items: center;
+  appearance: none;
   background: #de513f;
+  border-width: 0;
+  box-shadow: none;
+  box-sizing: border-box;
   color: #fff;
-  padding: 18px 55px;
-  font-size: 1.5em;
   cursor: pointer;
+  display: inline-flex;
+  font-family: "Nunito Sans";
+  font-size: 1.2rem;
+  height: auto;
+  justify-content: center;
+  line-height: 1.5;
+  padding: 18px 55px;
+  cursor: pointer;
+  touch-action: manipulation;
+  vertical-align: top;
+  white-space: nowrap;
 }
 
 /* Navbar */
@@ -784,7 +798,10 @@ body::-webkit-scrollbar {
   }
 
   .faq-mom-img {
-    width: 500px;
+    width: 1000px;
+    top: -5px;
+    position: absolute;
+    
   }
 
   .accordion .accordion-header h3 {
