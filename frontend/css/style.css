@@ -13,14 +13,14 @@ body {
 
   background-color: #F8F9F1;
   /* display: flex;
-  flex-flow: column; */
-  height: 100vh;
+  flex-flow: column; 
+  height: 100vh;*/
   color: #2C1132;
 
-  position: absolute;
+  position: relative;
   top: 0px;
   bottom: 0px;
-  width: 100%;
+
   
 }
 
