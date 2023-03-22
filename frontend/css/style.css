@@ -105,7 +105,7 @@ body {
 
 .wallet-btn {
   border-radius: 5rem;
-  margin-left: 2rem;
+  margin-left: 1rem;
   border-color: transparent;
 }
 
@@ -473,20 +473,19 @@ body::-webkit-scrollbar {
 }
 
 .accordion {
-  border-radius: 15px;
+  border-radius: 12px;
   margin-bottom: 20px;
   overflow: hidden;
   z-index: 10;
 }
 
 .accordion .accordion-header {
-  padding: 1rem 2rem;
+  padding: 1rem 2rem 0.7rem 2rem;
   background: rgba(222, 81, 63, 0.29);
   display: flex;
   justify-content: space-between;
   align-items: center;
   cursor: pointer;
-
 }
 
 .accordion .accordion-header h3 {
@@ -496,6 +495,8 @@ body::-webkit-scrollbar {
 
 .accordion .accordion-header .close {
   width: 20px;
+  display: flex;
+  align-items: flex-end;
 }
 
 .accordion .accordion-header span {
@@ -505,10 +506,11 @@ body::-webkit-scrollbar {
 
 .accordion .accordion-body {
   padding: 0 2rem;
-  max-height: 0;
+  max-height: 0px;
   overflow: hidden;
   transition: max-height ease 0.5s;
   border: 3px solid rgba(222, 81, 63, 0.29);
+  z-index: -2000;
 }
 
 .accordion .accordion-body p {
@@ -519,14 +521,15 @@ body::-webkit-scrollbar {
 
 .accordion .close span {
   transition: ease 0.5s;
-  display: inline-block;
+  display: -webkit-inline-box;
+  /* display: inline-block; */
   height: 25px;
   width: 5px;
   background-color: #de513f;
 }
 
 .accordion .close span:nth-child(even) {
-  transform: rotate(90deg) translateY(9.7px);
+  transform: rotate(90deg) translateY(5.7px);
 }
 
 .accordion.active .close span:nth-child(odd) {
@@ -719,7 +722,7 @@ body::-webkit-scrollbar {
   }
 
   .accordion .accordion-header {
-    padding: 1rem 1.7rem;
+    padding: 1rem 1.7rem 0.7rem 1.7rem;
   }
 
   .accordion .accordion-header h3 {
@@ -731,7 +734,7 @@ body::-webkit-scrollbar {
   }
 
   .mom-hero-img {
-    width: 120%;
+    width: 115%;
   }
 
   .mom-hero-section .logo img {
@@ -739,8 +742,8 @@ body::-webkit-scrollbar {
   }
 
   .mom-hero-section .logo {
-    width: 60%;
-    margin-top: -300px;
+    width: 55%;
+    margin-top: -250px;
   }
 
   .faq-mom-img {
@@ -783,8 +786,8 @@ body::-webkit-scrollbar {
 
   .mom-hero-section .logo {
     margin-left: 3rem;
-    margin-top: -360px;
-    width: 70%;
+    margin-top: -300px;
+    width: 75%;
   }
 
   .faq-col-1 {
@@ -861,6 +864,15 @@ body::-webkit-scrollbar {
 
 /* Mobile screen */
 @media screen and (max-width: 500px) {
+  .mom-hero-img {
+    width: 150%;
+  }
+  .mom-hero-section .logo {
+    margin-top: -200px; 
+  }
+  .mom-hero-section .logo img{
+    width: 120%;
+  }
   .content h3 {
     font-size: 1.6em;
   }
@@ -871,7 +883,7 @@ body::-webkit-scrollbar {
 
   .mom-hero-section .logo {
     width: 100%;
-    top: 100px;
+    top: -30px;
     position: relative;
   }
 
