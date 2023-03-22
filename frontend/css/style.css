@@ -865,8 +865,8 @@ body::-webkit-scrollbar {
 /* Mobile screen */
 @media screen and (max-width: 500px) {
   .mom-hero-img {
-    width: 160%;
-    height: 500px;
+    width: 170%;
+    height: 450px;
   }
   .mom-hero-section .logo {
     margin-top: -150px; 
