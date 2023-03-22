@@ -865,13 +865,14 @@ body::-webkit-scrollbar {
 /* Mobile screen */
 @media screen and (max-width: 500px) {
   .mom-hero-img {
-    width: 150%;
+    width: 160%;
   }
   .mom-hero-section .logo {
-    margin-top: -200px; 
+    margin-top: -150px; 
+    margin-left: -10px; 
   }
   .mom-hero-section .logo img{
-    width: 120%;
+    width: 140%;
   }
   .content h3 {
     font-size: 1.6em;
