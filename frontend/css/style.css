@@ -87,7 +87,7 @@ body {
   font-size: 1rem;
   text-align: center;
   text-transform: capitalize;
-  transition: all 0.3s ease;
+  /* transition: all 0.3s ease; */
   box-shadow: #DD5142;
   cursor: pointer;
   position: relative;
@@ -779,7 +779,7 @@ body::-webkit-scrollbar {
 }
 
 /* Tablate screen */
-@media screen and (max-width: 769px) {
+@media screen and (max-width: 768px) {
   .mom-hero-img {
     width: 135%;
   }
@@ -820,8 +820,8 @@ body::-webkit-scrollbar {
     font-size: 1.1em;
   }
 
-  .drops img {
-    margin-bottom: -50px;
+  .accordion {
+    margin-bottom: 0px;
   }
 
   #mint-hero .wallet {
@@ -865,15 +865,15 @@ body::-webkit-scrollbar {
 /* Mobile screen */
 @media screen and (max-width: 500px) {
   .mom-hero-img {
-    width: 170%;
-    height: 450px;
+    width: 150%;
+     /* height: 500px; */
   }
   .mom-hero-section .logo {
-    margin-top: -150px; 
+    margin-top: -200px; 
     margin-left: -10px; 
   }
   .mom-hero-section .logo img{
-    width: 140%;
+    width: 130%;
   }
   .content h3 {
     font-size: 1.6em;
