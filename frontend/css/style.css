@@ -226,7 +226,7 @@ body::-webkit-scrollbar {
   width: 100%;
   margin: 0px auto;
   padding: 0 20px;
-  padding-bottom: 120px;
+  padding-bottom: 50px;
 }
 
 /* VISION */
@@ -405,6 +405,7 @@ body::-webkit-scrollbar {
 
 .community-heading {
   font-size: 30px;
+  margin-bottom: 55px;
 }
 
 .drops {
@@ -412,12 +413,13 @@ body::-webkit-scrollbar {
   float: center;
   width: 30%;
   padding: 20 20px;
+  margin-bottom: 100px;
 }
 
 .drops img {
-  max-width: 500px;
+  max-width: 200px;
   width: 100%;
-  margin-bottom: -105px;
+  margin-bottom: 25px;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -458,7 +460,7 @@ body::-webkit-scrollbar {
 
 .faq-hero {
   width: 100%;
-  min-height: 100vh;
+  height: 100vh;
   padding-top: 120px;
   display: flex;
 }
@@ -545,8 +547,8 @@ body::-webkit-scrollbar {
 }
 
 .mom-hero-img {
-  width: 100%;
-  max-width: 1600px;
+  width: 70%;
+  max-width: 1040px;
   height: auto;
   position: absolute;
   bottom: 0;
@@ -561,13 +563,13 @@ body::-webkit-scrollbar {
 }
 
 .mom-hero-section .logo {
-  width: 50%;
+  width: 35%;
 }
 
 .mom-hero-section .logo img {
   width: 100%;
   height: auto;
-  margin-left: -5rem;
+  margin-left: -2rem;
 }
 
 /* MINT */
@@ -734,15 +736,15 @@ body::-webkit-scrollbar {
   }
 
   .mom-hero-img {
-    width: 115%;
+    width: 75%;
   }
 
   .mom-hero-section .logo img {
-    margin-left: -5rem;
+    margin-left: -2rem;
   }
 
   .mom-hero-section .logo {
-    width: 55%;
+   width: 50%;
     margin-top: -250px;
   }
 
@@ -764,10 +766,6 @@ body::-webkit-scrollbar {
     margin-bottom: 50px !important;
   }
 
-  .drops img {
-    margin-bottom: -70px;
-  }
-
   .drops h4 {
     font-size: 1.3em;
   }
@@ -781,13 +779,13 @@ body::-webkit-scrollbar {
 /* Tablate screen */
 @media screen and (max-width: 768px) {
   .mom-hero-img {
-    width: 135%;
+    width: 85%;
   }
 
   .mom-hero-section .logo {
     margin-left: 3rem;
     margin-top: -300px;
-    width: 75%;
+    width: 50%;
   }
 
   .faq-col-1 {
@@ -796,6 +794,7 @@ body::-webkit-scrollbar {
 
   .faq-hero {
     flex-direction: column;
+    height: auto;
   }
 
   .faq-col-2 {
@@ -865,15 +864,18 @@ body::-webkit-scrollbar {
 /* Mobile screen */
 @media screen and (max-width: 500px) {
   .mom-hero-img {
-    width: 150%;
-     /* height: 500px; */
+    width: 100%;
+     
   }
   .mom-hero-section .logo {
     margin-top: -200px; 
     margin-left: -10px; 
   }
   .mom-hero-section .logo img{
-    width: 130%;
+    width: 85%;
+  }
+  .mom-hero-section .logo img {
+    margin-left: -1rem;
   }
   .content h3 {
     font-size: 1.6em;
@@ -902,10 +904,9 @@ body::-webkit-scrollbar {
     font-size: 1em;
   }
 
-  /* .drops {
-    float: right;
-    padding: 1000%;
-  } */
+  .drops img{
+    padding: 0px 25px;
+  }
 
   .drops h4 {
     font-size: 1.1em;
