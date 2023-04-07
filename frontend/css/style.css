@@ -35,7 +35,6 @@ body {
   padding: 1rem 2rem;
   justify-content: center;
   overflow: hidden;
-  height: -webkit-fill-available;
 }
 
 
@@ -205,10 +204,6 @@ section {
 }
 
 
-
-
-
-
 body::-webkit-scrollbar {
   display: none;
 }
@@ -216,7 +211,6 @@ body::-webkit-scrollbar {
 #main {
   background-color: #f8f9f1;
   z-index: -100;
-  height: -webkit-fill-available;
 }
 
 .container {
@@ -814,8 +808,7 @@ body::-webkit-scrollbar {
   }
 
   .faq-mom-img {
-    width: 1000px;
-    top: -5px;
+   
     position: absolute;
     
   }
